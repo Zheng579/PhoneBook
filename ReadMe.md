@@ -21,12 +21,15 @@ CREATE TABLE contact (
     phoneNo VARCHAR(45),
     PRIMARY KEY (`ContactID`)
 );
+```
 
-## API Setup
+### API Setup
 1. Host the API using the following Python script:
-    python phoneBookAPI.py
+```cmd
+  python phoneBookAPI.py
+```
 
-## Front-end Setup
+### Front-end Setup
 1. Open the front-end application directory:
     cd phone-book-app
 2. Install the required Node.js packages:
@@ -34,7 +37,7 @@ CREATE TABLE contact (
 3. Start the front-end application:
     npm run start
 
-### Now you will be able to use the Phone Book System.
+#### Now you will be able to use the Phone Book System.
 
-## USAGE
+#### USAGE
 Use the provided API and front-end to manage your phone book entries. You can add, edit, delete, and view entries through the front-end application.
