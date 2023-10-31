@@ -4,7 +4,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 frontend: React.js<br />
-backend: Node.js<br />
+backend: Python<br />
 database: MySQL<br />
 
 This project is a simple phone contact system that includes both a MySQL database for storing contact information and a front-end application for managing and displaying contacts.
