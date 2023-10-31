@@ -1,3 +1,18 @@
+# Phone Contact System
+
+frontend: React.js
+backend: Node.js
+database: MySQL
+
+This project is a simple phone contact system that includes both a MySQL database for storing contact information and a front-end application for managing and displaying contacts.
+
+## Setup
+
+### Database Setup
+
+Create the database and table by running the following SQL commands:
+
+```sql
 CREATE DATABASE phone_contact;
 
 CREATE TABLE contact (
@@ -7,13 +22,19 @@ CREATE TABLE contact (
     PRIMARY KEY (`ContactID`)
 );
 
-//run the following mysql to create database and table
-change database setting in phoneBookAPI.py
-host the api using python phoneBookAPI.py
+## API Setup
+1. Host the API using the following Python script:
+    python phoneBookAPI.py
 
-//run the front end, use the following command
-cd phone-book-app
-npm install
-npm run start
+## Front-end Setup
+1. Open the front-end application directory:
+    cd phone-book-app
+2. Install the required Node.js packages:
+    npm install
+3. Start the front-end application:
+    npm run start
 
-now you will be able to use the system
+### Now you will be able to use the Phone Book System.
+
+## USAGE
+Use the provided API and front-end to manage your phone book entries. You can add, edit, delete, and view entries through the front-end application.
